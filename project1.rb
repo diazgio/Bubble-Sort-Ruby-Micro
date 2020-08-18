@@ -1,4 +1,4 @@
-#-------------------Bubble sort----------------
+# -------------------Bubble sort----------------
 
 
 def bubble_sort(array)
@@ -21,6 +21,26 @@ array = [6,4,2,1,3,14,8,-1]
 
 p bubble_sort(array)
 
-#---------------Bubble-sort-by---------------------
 
-def bubble_sort_by()
+# ---------------Bubble-sort-by---------------------
+
+def bubble_sort_by(array)
+  sweeps_needed = 1
+  while  sweeps_needed > 0 do
+    sweeps_needed = 0
+    for i in 0..array.length-2
+      if yield(array[i], array[i+1]) > 0
+        z = array[i]
+          array[i] = array[i+1]
+          array[i+1] = z
+          sweeps_needed = 1
+      end
+    end
+  end
+  array
+end
+
+p (bubble_sort_by(["hi","hello","hey"]) do |left, right|
+  left.length - right.length
+  end)
+  
