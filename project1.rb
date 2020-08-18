@@ -1,6 +1,5 @@
-# Bubble sort
+#-------------------Bubble sort----------------
 
-array = [9,6,4,5,8,2,3,1,0,12,]
 
 def bubble_sort(array)
   sweeps_needed = 1
@@ -15,7 +14,9 @@ def bubble_sort(array)
       end
     end
   end
-  puts array
+  array
 end
 
-bubble_sort(array)
+array = [6,4,2,1,3,14,8,-1]
+
+p bubble_sort(array)
