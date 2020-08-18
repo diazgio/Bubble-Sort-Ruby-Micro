@@ -1,59 +1,41 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# 🧐  Bubble-sort Ruby project
 
-# Project Name
-
-> One paragraph statement about the project.
+> This is the first Ruby project from the Microverse program. It's a program built to sort or swap an array with the propose to organized on the incremental way.
 
 ![screenshot](./app_screenshot.png)
 
 Additional description about the project and its features.
 
-## Built With
+## 🔧 Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Ruby.
+- Using Linters for Ruby.
+- Using Bundler.
 
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## 🛠 Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+- Go to the main page of te repo.
+- Press the "Code" button and get the repo link.
+- Clone it using git.
+- Open terminal on that folder.
+- Run the next command: 
+  ´$ruby project1.rb´
 
-### Setup
+## 👤 Authors
 
-### Install
+👤 **Giordano Díaz**
 
-### Usage
+- Github: [@diazgio](https://github.com/diazgio)
+- Twitter: [@giordano_diaz](https://twitter.com/giordano_diaz)
+- LinkenIn:[LinkenIn](www.linkedin.com/in/Giordano-Diaz)
 
-### Run tests
+👤 **Paul Balitema**
 
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
-
-👤 **Author2**
-
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@pbkabali](https://github.com/pbkabali)
+- Twitter: [@pbkabali](https://twitter.com/pbkabali)
+- Linkedin: [[engineerbpk](www.linkedin.com/in/engineerbpk)
 
 ## 🤝 Contributing
 
@@ -64,12 +46,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
