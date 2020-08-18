@@ -6,10 +6,11 @@ def bubble_sort(array)
     sweeps_needed = 0
     (0..array.length - 2).each do |i|
       next unless array[i] > array[i + 1]
-        z = array[i]
-        array[i] = array[i + 1]
-        array[ i+1 ] = z
-        sweeps_needed = 1
+
+      z = array[i]
+      array[i] = array[i + 1]
+      array[i + 1] = z
+      sweeps_needed = 1
     end
   end
   array
@@ -27,13 +28,14 @@ def bubble_sort_by(array)
     sweeps_needed = 0
     (0..array.length - 2).each do |i|
       next unless yield(array[i], array[i + 1]).positive?
-        z = array[i]
-        array[i] = array[i + 1]
-        array[i + 1] = z
-        sweeps_needed = 1
+
+      z = array[i]
+      array[i] = array[i + 1]
+      array[i + 1] = z
+      sweeps_needed = 1
     end
   end
   array
 end
 
-p ( bubble_sort_by(%w[hi hello hey]) {|left, right| left.length - right.length })
+p bubble_sort_by(%w[hi hello hey]) { |left, right| left.length - right.length }
