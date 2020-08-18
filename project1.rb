@@ -20,3 +20,7 @@ end
 array = [6,4,2,1,3,14,8,-1]
 
 p bubble_sort(array)
+
+#---------------Bubble-sort-by---------------------
+
+def bubble_sort_by()
